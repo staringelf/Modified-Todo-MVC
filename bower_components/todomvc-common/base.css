@@ -143,6 +143,10 @@ input[type="checkbox"] {
 	box-shadow: none;
 }
 
+#new-todo-priority{
+	
+}
+
 #main {
 	position: relative;
 	z-index: 2;
@@ -282,12 +286,17 @@ label[for='toggle-all'] {
 	text-decoration: line-through;
 }
 
-#todo-list li.priority:not(.completed) label {
-	color: #d66;
+
+#todo-list li.priority--3:not(.completed) label {
+	color: rgb(241, 150, 150);
 }
 
-#todo-list li.priority .priority-btn:after {
-	color: #d66;
+#todo-list li.priority--2:not(.completed) label {
+	color: rgb(247, 97, 97);
+}
+
+#todo-list li.priority--1:not(.completed) label {
+	color: red;
 }
 
 #todo-list li .destroy,

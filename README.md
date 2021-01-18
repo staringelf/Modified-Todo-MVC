@@ -1,2 +1,3 @@
 # Modified-Todo-MVC
-Personal Project - Adds on some more features to the standard todoList
+Personal Project - Adds on some features to the standard TodoListMVC[https://todomvc.com/examples/backbone/]
+made with backbone.js
